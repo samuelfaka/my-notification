@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    background-color: aliceblue;
+}
+.q{
+    font-size: 15px;
+}
+.q1{
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-size: 11px;
+    width: 2vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+.q2{
+    font-size: 13px;
+}
+.q3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.q4{
+    display: flex;
+    align-items: center;
+    gap: 220px;
+}
+.bg{
+    background-color: white;
+    width: 37vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.t{
+    height: 6vh;
+}
+.t1{
+    font-size: 11px;   
+}
+.t2{
+    font-size: 11px;
+}
+.t3{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.t4{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+.t5{
+    font-size: 11px;
+    width: 26vw;
+    padding: 10px;
+}
+.t6{
+    border: 1px solid black;
+    width: 27vw;
+    height: 11vh;
+}
+.t7{
+    padding-left: 55px;
+}
+.t8{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.y{
+    height: 6vh;
+}
+.y1{
+    font-size: 11px;
+}
+.y2{
+    font-size: 11px;
+}
+.y3{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.y4{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.y5{
+    height: 6vh;
+}
+.yy{
+    color: rgb(12, 2, 20);
+}
+.y6{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+.u{
+    height: 6vh;
+}
+.u1{
+    font-size: 11px;
+    width: 26vw;
+}
+.u2{
+    color: rgb(12, 2, 20);
+}
+.u3{
+    font-size: 10px;
+    color: rgb(33, 6, 58);
+}
+.u4{
+    font-size: 11px;
+}
+.u5{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.u6{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.i{
+    height: 6vh;
+}
+.i1{
+    font-size: 11px;
+}
+.i2{
+    font-size: 10px;
+    color: darkblue;
+}
+.i3{
+    font-size: 11px;
+}
+.i4{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.i5{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.p{
+    height: 6vh;
+}
+.p1{
+    font-size: 11px;
+}
+.p2{
+    font-size: 11px;
+}
+.p3{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.div-flex1, .div-flex2, .div-flex3{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: aliceblue;
+    width: 32vw;
+    height: 9vh;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.p11{
+    font-size: 11px;
+}
+.o{
+    color: darkblue;
+}
+.o1{
+    color: rgb(27, 3, 49);
+}
+.o2{
+    color: rgb(15, 4, 26);
+}
+.po{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+@media screen and (max-width:950px) {
+    .bg{
+        background-color: white;
+        width: 100vw;
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+        cursor: pointer;
+    }
+    .sect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 130vh;
+        background-color: aliceblue;
+    }
+    .q4{
+        display: flex;
+        align-items: center;
+        gap: 120px;
+    }
+    .q1{
+        width: 5vw;
+        height: 3vh;
+    }
+    .t6{
+        border: 1px solid black;
+        width: 55vw;
+        height: 17vh;
+    }
+    .t5{
+        width: 44vw;
+    }
+    .u1{
+        width: 45vw;
+    }
+    .u6{
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .div-flex1, .div-flex2, .div-flex3{
+        display: flex;
+        gap: 15px;
+        width: 76vw;
+        height: 12vh;
+    }
+    .p1{
+        width: 50vw;
+    }
+    .p11{
+        font-size: 11px;
+        width: 45vw;
+    }
+    .po{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .y6{
+        gap: 23px;
+    }
+    .y1{
+        width: 40vw;
+    }
+    .q4{
+        display: flex;
+        align-items: center;
+        gap: 93px;
+    }
+    .bg{
+        height: 110vh;
+    }
+    .sect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: aliceblue;
+    }
+}
